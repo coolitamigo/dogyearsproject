@@ -1,0 +1,17 @@
+// My age as a variable.
+var myAge = 34;
+var earlyYears = 2;
+earlyYears *= 10.5;
+// To get the number of years left which will have a value different than 10.5.
+let laterYears = myAge - 2;
+// These years are equal to 4 human years.
+laterYears *= 4;
+// Now we will add these up.
+var myAgeInDogYears = laterYears + earlyYears;
+// Using the built-in method to lowercase my name.
+myName = 'Tim'.toLowerCase();
+
+// console.log(myName);
+// console.log(laterYears);
+// console.log(earlyYears);
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
